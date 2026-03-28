@@ -1,5 +1,3 @@
-# hand_car_controller_auto_cal_fixed.py
-# Same requirements as before: mediapipe, opencv-python, vgamepad + ViGEmBus installed.
 import cv2, math, time, statistics
 from collections import deque
 import mediapipe as mp
