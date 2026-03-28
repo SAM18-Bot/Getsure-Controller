@@ -105,23 +105,3 @@ All settings are at the top of `Getsure Controller.py`:
 | `INVERT_STEERING` | `False` | Invert the steering direction |
 | `FALLBACK_SENSITIVITY` | `0.06` | Steering sensitivity if no sweep calibration was done |
 
-## Troubleshooting
-
-**Virtual gamepad not created**
-Make sure the [ViGEmBus driver](https://github.com/ViGEm/ViGEmBus/releases) is installed and you are running on Windows.
-
-**Wrong hand labeled as Left/Right**
-Set `SWAP_HANDS = True` in the settings, or reposition your camera.
-
-**Steering feels inverted**
-Set `INVERT_STEERING = True` in the settings.
-
-**Camera not opening**
-Try changing `CAM_ID` to `1` or another index if you have multiple cameras.
-
-**Steering is too sensitive / not sensitive enough**
-Run auto calibration (`C`) to set proper extremes. If you skip the sweep, adjust `FALLBACK_SENSITIVITY`.
-
-## License
-
-This project is provided as-is for personal use. See the repository for any additional license information.
